@@ -13,6 +13,7 @@ cd ./start-node-project
 npm install
 ```
 ## Usage
+* npm run update
 * delete .git
 * npm run dev
 
