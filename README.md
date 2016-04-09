@@ -19,7 +19,7 @@ npm install
 * delete .git
 * npm run dev
 
-## Scripts:
+## Scripts
 The `package.json` file comes with the following scripts
 
 `npm run <name of script>`
