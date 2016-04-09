@@ -1,6 +1,8 @@
 # start-node-project
 node project starter
 
+[![Build Status](https://travis-ci.org/suxxus/start-node-project.svg?branch=master)](https://travis-ci.org/suxxus/start-node-project)
+
 ## Features ###
 * npm scripts
 * Lint ESLINT
