@@ -6,7 +6,7 @@ node project starter
 * Lint ESLINT
 * Unit testing TAPE
 
-## Clone the repo & install:
+## Clone the repo & install
 ```
 git clone https://github.com/suxxus/start-node-project.git
 cd ./start-node-project
