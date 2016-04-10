@@ -11,9 +11,7 @@
   "scripts": {
     "lint": "eslint --color  src || true",
     "test": "NODE_PATH=src tape src/tests | tap-colorize",
-    "watch:test": "npm test & npm run lint",
-    "watch": "watch -p 'src/**/*.js' -c 'npm run watch:test'",
-    "dev": "npm run watch",
+    "dev": "watch -p 'src/**/*.js' -c 'npm test & npm run lint'",
     "check": "npm outdated --depth=0",
     "update": "updtr"
   },

@@ -28,8 +28,6 @@ The `package.json` file comes with the following scripts
 
 `lint`: lint all code.
 
-`watch`: start watching files, perform test, lint tasks.
-
 `dev`:  runs a dev console that reports lint and unit tests and start watching for changes at *.js files
 
 `check`: check outdated npm modules.
