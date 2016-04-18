@@ -11,14 +11,18 @@
   "scripts": {
     "lint": "eslint --color  src || true",
     "test": "NODE_PATH=src tape src/tests | tap-colorize",
+    "coverage": "NODE_PATH=src `npm bin`/istanbul cover src/tests/index.js",
+    "coveralls": "npm run-script coverage",
     "dev": "watch -p 'src/**/*.js' -c 'npm test & npm run lint'",
     "check": "npm outdated --depth=0",
     "update": "updtr"
   },
   "devDependencies": {
+    "coveralls": "2.11.9",
     "eslint": "2.7.0",
     "eslint-cli": "1.1.0",
     "eslint-config-eslint": "3.0.0",
+    "istanbul": "0.4.3",
     "tap-colorize": "1.2.0",
     "tape": "4.5.1",
     "updtr": "0.1.10",

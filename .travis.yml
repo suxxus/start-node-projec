@@ -5,8 +5,12 @@ script:
   - npm run lint
   - npm test
   - npm run check
+  - coveralls
 
 # whitelist
 branches:
   only:
     - master
+
+after_success:
+  - coveralls
