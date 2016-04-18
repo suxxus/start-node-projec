@@ -2,6 +2,7 @@
 node project starter
 
 [![Build Status](https://travis-ci.org/suxxus/start-node-project.svg?branch=master)](https://travis-ci.org/suxxus/start-node-project)
+<a href="https://codeclimate.com/github/suxxus/start-node-project"><img src="https://codeclimate.com/github/suxxus/start-node-project/badges/gpa.svg" /></a>
 
 ## Features ###
 * npm scripts
