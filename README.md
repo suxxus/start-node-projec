@@ -34,3 +34,5 @@ The `package.json` file comes with the following scripts
 `check`: check outdated npm modules.
 
 `update`: update outdated npm modules.
+
+`coverall`: code coverage placed at ./coverage

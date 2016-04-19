@@ -6,11 +6,6 @@ script:
   - npm test
   - npm run check
   - npm run coverall
-addons:
-  code_climate:
-      repo_token: 255087e6ea698ee4ba0de43c7d52af41c229bca5d49267fca86444e53ae91c27
-after_script:
-  - npm run codeclimate
 notifications:
   email: false
 # whitelist
