@@ -26,7 +26,7 @@
     "istanbul": "0.4.3",
     "tap-colorize": "1.2.0",
     "tape": "4.5.1",
-    "updtr": "0.1.10",
+    "updtr": "0.1.13",
     "watch-cli": "0.2.1"
   },
   "keywords": [
