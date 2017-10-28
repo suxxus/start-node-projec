@@ -17,9 +17,8 @@ cd ./start-node-project
 npm install
 ```
 ## Usage
-* npm run update
 * delete .git
-* npm run dev
+* npm run start
 
 ## Scripts
 The `package.json` file comes with the following scripts
@@ -30,10 +29,8 @@ The `package.json` file comes with the following scripts
 
 `lint`: lint all code.
 
-`dev`:  runs a dev console that reports lint and unit tests and start watching for changes at *.js files
+`start`:  runs a dev console that reports lint and unit tests and start watching for changes at *.js files
 
 `check`: check outdated npm modules.
-
-`update`: update outdated npm modules.
 
 `coverall`: code coverage placed at ./coverage
