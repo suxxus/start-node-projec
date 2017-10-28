@@ -1,11 +1,9 @@
-'use strict';
+const test = require('tape');
+const main = require('scripts');
 
-var test = require('tape');
-var main = require('scripts');
-
-test('index', function(t) {
-    var actual = main(),
-        expect = true;
-    t.ok(actual, expect);
-    t.end();
+test('index', (t) => {
+  const actual = main();
+  const expect = true;
+  t.ok(actual, expect);
+  t.end();
 });
